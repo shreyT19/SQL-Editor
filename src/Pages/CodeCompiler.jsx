@@ -12,11 +12,10 @@ const EntitySchema = lazy(() =>
 );
 
 const CodeCompiler = () => {
-  const { showLeftPanel, orders, products } =
-    useStateContext();
+  const { showLeftPanel, orders, products } = useStateContext();
   const memoizedEntitySchemas = useMemo(() => {
     return (
-      <Suspense fallback={<div>Loading Entity Schema...</div>}>
+      <Suspense fallback={<div style={{color:"white"}}>Loading Entity Schema...</div>}>
         <div className="entityModels">
           <div className="titleProject">
             <p className="title">Online SQL Editor</p>
@@ -35,6 +34,7 @@ const CodeCompiler = () => {
   return (
     <div className="compiler">
       {showLeftPanel && memoizedEntitySchemas}
+
       <Code />
     </div>
   );
