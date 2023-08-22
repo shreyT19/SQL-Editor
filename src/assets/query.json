@@ -1,0 +1,12 @@
+{
+    "query":[
+        {
+            "id":1,
+            "query":"SELECT * FROM products;"
+        }
+        ,{
+            "id":2,
+            "query":"SELECT * FROM orders;"
+        }
+    ]
+}

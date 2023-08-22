@@ -1,0 +1,15 @@
+
+
+@import url(https://db.onlinewebfonts.com/c/cdc23e6c6a3b86efb41254c747c2989d?family=Euclid+Circular+A);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Euclid Circular A';
+}
+
+.head{
+  height: 100vh;
+  background-color:  rgb(18, 25, 37);
+  border-bottom: 1px solid grey;
+}

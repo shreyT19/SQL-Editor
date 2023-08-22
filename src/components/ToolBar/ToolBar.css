@@ -1,0 +1,53 @@
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: rgb(30 41 59 ); 
+}
+
+.buttons{
+  display: flex;
+  gap:20px;
+  /* justify-content: flex-end; */
+
+}
+
+.import{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-self: center;
+}
+
+button{
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.9;
+}
+button:hover{
+  opacity: 1;
+}
+
+.fullScreen{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-self: center;
+}
+.getSortedData {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+}
+.getSortedData p::before{
+  content:'*';
+  color: red;
+}

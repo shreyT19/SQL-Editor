@@ -1,0 +1,53 @@
+
+.compiler {
+  display: flex;
+  height: 100vh;
+  /* gap: 10px; */
+}
+
+.code {
+  flex: 2;
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  /* margin-left: 10px; */
+  height: 97.75vh;
+  overflow: auto;
+  position: relative;
+}
+
+.entityModels {
+  flex: 0.5;
+  background-color: rgb(30, 41, 59);
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 0;
+  overflow: auto;
+}
+
+.tableHeading {
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-weight: bold;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.entity {
+  border-bottom: 1px solid grey;
+  margin: 10px;
+  padding-block: 40px;
+}
+
+.titleProject {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(51, 65, 85);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,71 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  background-color: white;
+  color: black;
+}
+
+tr:nth-child(2n) {
+  color: black;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid rgb(209, 213, 219);
+  padding: 8px;
+  text-align: left;
+  /* color: white; */
+}
+
+th {
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:first-child th {
+  background-color: rgb(30, 41, 59);
+  color: white;
+}
+
+td {
+  opacity: 0.5;
+}
+
+tr th:first-child,
+tr td:first-child {
+  border-left: none;
+}
+
+tr th:last-child,
+tr td:last-child {
+  border-right: none;
+}
+
+th:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.idx {
+  width: 10px;
+  text-align: center;
+  background-color: rgb(30, 41, 59) !important;
+  opacity: 1 !important;
+  color: white;
+}
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 300px;
+  background-color: rgb(30, 41, 59);
+}
+
