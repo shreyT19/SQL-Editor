@@ -1,4 +1,4 @@
-# Online SQL Editor - Atlan Frontend Engineering Task
+# SQL Editor
 
 
 <img width="1433" alt="Screenshot 2023-08-22 at 2 27 08 PM" src="https://github.com/shreyT19/atlan-task-updated/assets/116892456/c6fceeae-bdbb-4b66-8eef-cac5ef3447a6">
